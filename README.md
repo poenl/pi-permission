@@ -6,8 +6,6 @@
 （`allow` / `ask` / `deny` / `classify`）；`classify` 通过 pi 的
 `ctx.modelRegistry.classify()` 判定放行或拒绝。
 
-> 当前状态：仅工程化外壳，尚无权限判定逻辑。
-
 ## 目录
 
 ```text

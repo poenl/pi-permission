@@ -6,7 +6,9 @@
   "type": "module",
   "license": "MIT",
   "pi": {
-    "extensions": ["./src"]
+    "extensions": [
+      "./src"
+    ]
   },
   "engines": {
     "node": ">=22"
@@ -29,5 +31,9 @@
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.71.0",
     "vitest": "^5.0.3"
+  },
+  "dependencies": {
+    "tree-sitter-bash": "^0.25.1",
+    "web-tree-sitter": "^0.26.13"
   }
 }
